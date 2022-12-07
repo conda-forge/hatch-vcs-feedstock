@@ -1,12 +1,12 @@
 {% set name = "hatch-vcs" %}
-{% set version = "0.2.0" %}
+{% set version = "0.2.1" %}
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/hatch_vcs-{{ version }}.tar.gz
-  sha256: 9913d733b34eec9bb0345d0626ca32165a4ad2de15d1ce643c36d09ca908abff
+  sha256: 854e398586e7a0a9295c9d4365729d1ae6834ef39de33c88080f4eecc6fc5681
 
 build:
   noarch: python
