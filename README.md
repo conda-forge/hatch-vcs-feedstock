@@ -1,11 +1,11 @@
-About hatch-vcs
-===============
+About hatch-vcs-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/hatch-vcs-feedstock/blob/main/LICENSE.txt)
 
 Home: https://pypi.org/project/hatch-vcs/
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/hatch-vcs-feedstock/blob/main/LICENSE.txt)
 
 Summary: Hatch plugin for versioning with your preferred VCS
 

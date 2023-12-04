@@ -1,12 +1,12 @@
 {% set name = "hatch-vcs" %}
-{% set version = "0.3.0" %}
+{% set version = "0.4.0" %}
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/hatch_vcs-{{ version }}.tar.gz
-  sha256: cec5107cfce482c67f8bc96f18bbc320c9aa0d068180e14ad317bbee5a153fee
+  sha256: 093810748fe01db0d451fabcf2c1ac2688caefd232d4ede967090b1c1b07d9f7
 
 build:
   noarch: python
@@ -15,13 +15,13 @@ build:
 
 requirements:
   host:
-    - hatchling >=0.21.0
+    - hatchling >=1.1.0
     - pip
-    - python >=3.7
+    - python >=3.8
   run:
-    - hatchling >=0.21.0
-    - python >=3.7
-    - setuptools-scm
+    - hatchling >=1.1.0
+    - python >=3.8
+    - setuptools-scm >=6.4.0
 
 test:
   imports:
